@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+  }
+  body{
+    background-color: greenyellow;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 150px;
+    max-width: 400px;
+    margin: 0px auto;
+    background-color: yellow;
+    border-radius: 10px;
+  }
+  
+  .box {
+    height: 82px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: rgb(68, 0, 255);
+    border-radius: 8px;
+  }
+  .box:hover {
+    background-color: violet;
+    color: white;
+  }
+  
+  .info_box {
+    /* flex-grow: 1; */
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .msg {
+    text-align: center;
+  }
